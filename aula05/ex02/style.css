@@ -1,0 +1,21 @@
+nav {
+    width: 300px;
+}
+
+ul {
+
+}
+
+li{
+    color: red;
+    border: 1px solid black;
+    border-right-color : red;
+    border-right-width: 5px;
+    padding: 10px;
+    list-style: none;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
