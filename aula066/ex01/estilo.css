@@ -1,0 +1,15 @@
+.boss, .customer {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.titulo-principal {
+    color: red;
+    margin-bottom: 40px;
+}
+
+a {
+    color: red;
+    margin-bottom: 15px;
+}
