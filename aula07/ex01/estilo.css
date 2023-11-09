@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;1,100;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap');
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box {
+    background-color: #fff;
+    box-shadow: 0px 1px 5px 1px #b4b4b457;
+    border-radius: 8px;
+    width: 300px;
+    margin: 1em auto;
+    padding: 20px;
+}
+
+.imagem-produto{
+    width: 100px; 
+    margin: 1rem auto;  
+    display: block;
+}
+
+.produto-paragrafo, .produto-titulo {
+    text-align: center;
+}
