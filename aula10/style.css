@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    background-color: #6950A1;
+    padding: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+.section-1 {
+    background-color: #6950A1;
+    padding: 40px;
+}
+
+.titulo {
+    color: #fff;
+    font-size: 32px;
+    line-height: 54px;
+    max-width: 900px;
+}
+
+.section-2 {
+    background-color: #fff;
+}
+
+.subtitle-section-2 {
+    max-width: 750px;
+    padding: 40px;
+}
+
+.form {
+    max-width: 335px;
+    border: solid #6950A1 2px;
+    background-color: transparent;
+    padding-bottom: 40px;
+}
+
+
+
+label {
+    margin-bottom: 9px;
+    display: block;
+}
+
+input {
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #6950A1;
+}
+
+input:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.title-form {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container-text-form {
+ background-color: #1A1033E5;
+ border-radius: 15px;
+ padding: 26px 17px;
+ max-width: 335px;
+}
+
+.container-input {
+    padding-left: 17px;
+}
+
+.section-3 {
+    padding: 40px;
+    background-color: #fff;
+}
+
+li {
+    padding-left: 10px;
+}
+
+.btn-form {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #6950A1;
+    width: 300px;
+    border: none;
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+}
+
+.info-section-3 {
+    max-width: 750px;
+    margin-bottom: 30px;
+}
