@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-1 {
     background-color: #6950A1;
     padding: 40px;
+    position: relative;
 }
 
 .titulo {
@@ -40,6 +41,11 @@ h1, h2, h3, h4, h5, h6 {
     border: solid #6950A1 2px;
     background-color: transparent;
     padding-bottom: 40px;
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+    z-index: 99;
+
 }
 
 
