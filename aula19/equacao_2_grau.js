@@ -18,7 +18,7 @@ if (delta < 0) {
     let raiz2 = (-b - Math.sqrt(delta)) / (2 * a)
     io.write(`A primeira raiz é ${raiz1} A segunda raiz é ${raiz2}`)
 } else if (delta = 0) {
-    let raiz1 = (-b + Math.sqrt(delta)) / (2 * a)
+    let raiz1 = (-b) / (2 * a)
     io.write(`A  raiz é ${raiz1}`)
 }
 
