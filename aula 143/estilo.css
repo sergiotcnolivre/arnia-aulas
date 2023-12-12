@@ -1,0 +1,28 @@
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+ li {
+    list-style: none;
+ }
+
+ .li-menu {
+    margin-left: 10px;
+ }
+ .li-menu:nth-child(odd) {
+    font-size: 50px;
+ }
+
+ a {
+    text-decoration: none;
+    color: inherit;
+ }
+
+ a[href="www.yahoo.com"] {
+    color: green;
+ }
+
+ .ul-menu {
+    display: flex;
+ }

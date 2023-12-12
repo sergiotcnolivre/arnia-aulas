@@ -1,0 +1,57 @@
+.button {
+    background-color: aquamarine;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 1em;
+    cursor: pointer;
+    color: white;
+}
+
+.button:hover {
+    background-color: blue;
+    color: rgb(0, 0, 60);
+}
+
+.button:focus {
+    border: 2px solid red;
+}
+
+.input:valid {
+    border: 2px solid rgb(14, 241, 14);
+    outline: 2px solid rgb(14, 241, 14);
+}
+
+.input:invalid {
+    border: 2px solid red;
+    outline: 2px solid red;
+}
+
+/* Pseudo-classe estrutural */
+table {
+    border-collapse: collapse;
+    width: 100%;
+        border-radius: 10px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+
+    padding: 8px;
+}
+.th1:nth-child(even) {
+    color: aquamarine;
+}
+
+tr:first-child {
+    background-color: rgb(154, 166, 223);
+}
+
+tr:nth-child(3) {
+    background-color: #ababab;
+}
+tr:nth-child(7) {
+    background-color: #ababab;
+}

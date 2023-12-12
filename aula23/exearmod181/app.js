@@ -18,3 +18,9 @@ for (let i = 0; i < 10; i++) {
     const sucessor = numero + 1
     io.write(sucessor)
 }
+
+if (x > 10) {
+    io.write("Se for verdadeiro entra aqui")
+} else {
+    io.write("Se for falso entra aqui")
+}
